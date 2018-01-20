@@ -10,8 +10,8 @@ import model.MARK_II.unimplementedBiology.PNS;
  * @version June 5, 2013
  */
 public class NervousSystem {
-    private model.MARK_II.unimplementedBiology.CNS CNS;
-    private model.MARK_II.unimplementedBiology.PNS PNS;
+    private CNS CNS;
+    private PNS PNS;
 
     public NervousSystem(Neocortex neocortex, LGN lgn, Retina retina) {
         this.CNS = new CNS(neocortex, lgn);

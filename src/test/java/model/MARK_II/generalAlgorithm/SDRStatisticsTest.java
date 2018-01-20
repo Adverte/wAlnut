@@ -28,7 +28,7 @@ public class SDRStatisticsTest extends TestCase {
 
     public void test_probabilityOfFalsePositive() {
         SDRStatistics SDR_statistics1 = new SDRStatistics(1024, 4, 2);
-        assertEquals("With 50.00% noise there is a .006855% of false positive",
+        assertEquals("With 50,00% noise there is a ,006855% of false positive",
                 SDR_statistics1.probabilityOfFalsePositive());
     }
 
